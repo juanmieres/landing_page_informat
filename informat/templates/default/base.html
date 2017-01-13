@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- basic info -->
+	<title>Informat</title>
+	<meta name="author" content="David Rozando">
+	<meta name="keywords" content="responsive, parallax, bootstrap, html5 template, one page, landing page">
+	<meta name="description" content="Drew - A Multipurpose Landing Page Template">
+
+
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap.min.css' %}"> 
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/font-awesome.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/flexslider.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/animate.css' %}"> 
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/settings.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/rev-style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.carousel.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/owl.theme.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/yamm.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/cubeportfolio.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'assets/css/style_own.css' %}">
+
+</head>
+
+<body>
+
+	
+	{% include 'partials/header.html' %}
+
+	{% block section %}
+	{% endblock section %}
+
+	{% include 'partials/footer.html' %}
+
+	
+
+	<script type="text/javascript" src="{% static 'assets/js/jquery.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery-migrate.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.easing.1.3.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.sticky.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.flexslider-min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.stellar.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/waypoints.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.counterup.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/wow.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.mb.YTPlayer.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/custom.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.themepunch.tools.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.themepunch.revolution.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/revolution-custom.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/jquery.cubeportfolio.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/cube-portfolio.js' %}"></script>
+	<script type="text/javascript" src="{% static 'assets/js/pace.min.js' %}"></script>
+
+
+	{% block scripts %}
+	{% endblock scripts %}
+
+
+</body>
+
+</html>
